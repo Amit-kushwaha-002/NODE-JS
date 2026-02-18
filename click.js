@@ -45,6 +45,11 @@ const server = http.createServer((req, res) => {
         <h2><a href="/women">WOMEN</a></h2>
         <h2><a href="/kids">KIDS</a></h2>
         <h2><a href="/other">OTHER</a></h2>
+        <h2><a href="/home">HOME</a></h2>
+        // <h2><a href="/men">MEN</a></h2>
+        // <h2><a href="/women">WOMEN</a></h2>
+        // <h2><a href="/kids">KIDS</a></h2>
+        // <h2><a href="/other">OTHER</a></h2>
       </nav>
 
     </body>
@@ -60,4 +65,5 @@ const port = 3001;
 server.listen(port, () => {
   console.log(`Server is running http://localhost:${port}`);
 });
+
 
