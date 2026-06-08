@@ -8,6 +8,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "apna " : "nodemon script.js",
     "start": "nodemon app.js",
     "CHALU-HO-JA": "NOde app.js" 
   },
